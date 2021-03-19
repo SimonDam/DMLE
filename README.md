@@ -1,2 +1,2 @@
-# DMLWI
-Dams Machine Learning Web-Interface
+# DMLE
+Data & Machine Learning Explorer
