@@ -13,6 +13,7 @@
           "tsconfig.json",
           "e2e/tsconfig.json"
         ],
+        "tsconfigRootDir": "./ClientApp",
         "createDefaultProgram": true
       },
       "extends": [
@@ -20,7 +21,14 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
-        "indent": ["error", 4],
+        "indent": [
+          "error",
+          4
+        ],
+        "space-in-brackets": [
+          "error",
+          "always"
+        ],
         "@angular-eslint/component-selector": [
           "error",
           {
