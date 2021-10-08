@@ -9,6 +9,7 @@
         "*.ts"
       ],
       "parserOptions": {
+        "tsconfigRootDir": "./",
         "project": [
           "tsconfig.json",
           "e2e/tsconfig.json"
