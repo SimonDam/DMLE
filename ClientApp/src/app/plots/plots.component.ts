@@ -4,7 +4,7 @@ import { PlotComponent } from '../plot/plot.component';
 @Component({
   selector: 'app-plots',
   templateUrl: './plots.component.html',
-  styleUrls: ['./plots.component.css']
+  styleUrls: ['./plots.component.scss']
 })
 export class PlotsComponent implements OnInit {
     private maxNumberPlots: number = 4;
