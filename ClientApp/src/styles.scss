@@ -1,10 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+$debug: 1;
+
 body {
     margin: 0;
 }
 
+.debug-outline {
+    outline-offset: -1px;
+    outline: 1px solid;
+    outline-color: rgba(255, 0, 0, $debug);
+}
+
 *{
     box-sizing: border-box;
+    @extend .debug-outline;
 }
 
 .vp-filler {
@@ -17,9 +26,4 @@ body {
 .filler-container {
     height: 100%;
     width: 100%;
-}
-
-.red-outline {
-    outline-offset: -2px;
-    outline: 1px solid red;
 }

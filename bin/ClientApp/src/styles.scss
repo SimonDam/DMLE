@@ -3,8 +3,15 @@ body {
     margin: 0;
 }
 
+.debug-outline {
+    outline-offset: -1px;
+    outline: 1px solid;
+    outline-color: rgba(255, 0, 0, 1);
+}
+
 *{
     box-sizing: border-box;
+    @extend .debug-outline;
 }
 
 .vp-filler {
@@ -19,11 +26,4 @@ body {
     width: 100%;
 }
 
-.red-outline {
-    outline-offset: -2px;
-    outline: 1px solid red;
-}
 
-footer > div {
-    
-}
